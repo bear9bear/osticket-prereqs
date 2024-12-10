@@ -44,36 +44,52 @@ Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop
 - On the C: drive, create a new folder named PHP.
 
 <h3>Step 4: Download & Extract Files</h3>
+
 - Extract the php files from the downloaded files into the PHP folder on the C: drive
+
 - Navigate to C:\inetpub\wwwroot, then copy the upload folder from osTicket into this directory. Rename the folder to osTicket.
 
 <h3>Step 5: Register PHP in IIS</h3>
+
 - Open IIS Manager as an administrator.
+
 - Click on PHP Manager and select Register new PHP version.
+
 - Browse to the PHP folder and select php-cgi. Once done, restart your server.
 
 <h3>Step 6: Verify osTicket Installation</h3>
 - In IIS Manager, go to Sites > Default Web Site > osTicket, and click on *Browse :80 to test if osTicket is accessible.
 
 <h3>Step 7: Enable Required PHP Extensions</h3>
--Inside the PHP Manager, enable the following extensions:
+
+- Inside the PHP Manager, enable the following extensions:
+
      - php_opcache.dll
+  
      - php_imap.dll
+
      - php_int.dll
+     
 - Then, navigate to the osTicket directory in C:\inetpub\wwwroot\osTicket\include, and rename the ost-sampleconfig.php to ost-config.php.
+
 - Right-click on  ost-config.php , go to Properties, and disable inheritance. Assign the Everyone group with full permissions.
 
 <h2>6. Completing the Installation</h2>
+
 - You are now ready to connect osTicket to your MySQL database:
 
 <h2>Complete Install</h2>
+
 You are now ready to connect osTicket to your MySQL database:
 
 <h3>Step 1: Create a New Database</h3>
+
 - Open HeidiSQL and create a new database for osTicket
 
 <h3>Step 2: Configure osTicket to Connect to the Database</h3>
+
 - After the database is created, take note of the database name
+
 - In osTicket enter the database name, username, and password to link osTicket with your MySQL database.
 
 🎉 Congratulations! osTicket is now installed and configured. 🎉
