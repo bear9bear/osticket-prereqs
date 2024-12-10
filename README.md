@@ -32,6 +32,7 @@ This tutorial covers how to install and set up the help desk system, osTicket.<b
 <h2>Installation Steps</h2>
 
 <p>
+    
 1. Set up virtual machine in azure running windows 10.
 
 2.  install and enable IIS and CGI inside of your VM.
@@ -45,8 +46,8 @@ This tutorial covers how to install and set up the help desk system, osTicket.<b
 5. Open IIS as admin and register PHP.
     Click "Register new PHP version" open the PHP folder we created on the c drive . select "php-cgi" and  restart your server.
 
-6, Confirm osTicket is running through web server
-Go to Sites, Default, osTicket, “Browse *:80”.
+6. Confirm osTicket is running through web server
+   Go to Sites, Default, osTicket, “Browse *:80”.
 
 7. Enable features and assign permissionsm to osTicket
     Click the drop down arrows until you see the osTicket files we created . Inside of the PHP manager click Enable or disable an extension. Enable php_opcache.dll , php_imap.dll and php_int.dll.
