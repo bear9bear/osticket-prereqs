@@ -6,7 +6,7 @@
 This tutorial covers how to install and set up the help desk system, osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+<h2>Download</h2>
 
 - ### [OsTicket Install Files](https://drive.google.com/drive/u/0/folders/1zBOeA_lLiIJAMPvdahCGLg9wJqVeznbu)
 
@@ -45,22 +45,24 @@ This tutorial covers how to install and set up the help desk system, osTicket.<b
 5. Open IIS as admin and register PHP.
     Click "Register new PHP version" open the PHP folder we created on the c drive . select "php-cgi" and  restart your server.
 
-6. Enable features
+6, Confirm osTicket is running through web server
+Go to Sites, Default, osTicket, “Browse *:80”.
+
+7. Enable features and assign permissionsm to osTicket
     Click the drop down arrows until you see the osTicket files we created . Inside of the PHP manager click Enable or disable an extension. Enable php_opcache.dll , php_imap.dll and php_int.dll.
-<br />
+    Inside of the osTicket file in wwwroot , go to include and scroll down to ost-sampleconfig.php and rename to ost-config.php
+    Disable inheritance in the properties and add a group for this example we are putting everyone. Apply.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h2>Complete Install</h2>
+
+
+osTicket is now successfully installed and should be running smoothly. To connect it to a database :
+
+1. Open HeidiSQL.
+   
+2. Create a new database for osTicket.
+
+3. Once the database is created, make sure to note down the database name.
+In the osTicket enter this database name and the name and password from setting up mysql to complete the connection.
+This will allow osTicket to access and store ticketing data in your database, enabling full functionality.
