@@ -58,6 +58,7 @@ Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop
 - Browse to the PHP folder and select php-cgi. Once done, restart your server.
 
 <h3>Step 6: Verify osTicket Installation</h3>
+
 - In IIS Manager, go to Sites > Default Web Site > osTicket, and click on *Browse :80 to test if osTicket is accessible.
 
 <h3>Step 7: Enable Required PHP Extensions</h3>
