@@ -37,7 +37,7 @@ Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop
 <h3>Step 2: Enable IIS and CGI</h3>
 
 - Go to Control Panel > Programs > Turn Windows features on or off.
-- check Internet Information Services (IIS), and then expand the Application Development Features section.
+- Check Internet Information Services (IIS), and then expand the Application Development Features section.
 - Ensure CGI is enabled.
 
 <h3>Step 3: Prepare PHP Folder</h3>
