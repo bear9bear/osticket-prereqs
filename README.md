@@ -27,16 +27,16 @@ Before getting started, download the necessary osTicket installation files from 
 
 - PHP - Serves as the bridge between the database (MySQL) and osTicket, processing server-side scripts.
 - mySQL - Database used to store data, ticket details, customer information, notes, ect.
-- HeidiSQL: Database manager uesd to interact within the database
-- VC Redist: Used for ticketing system to run properly . ensures the system has the proper c++ libraries to work.
-- Rewrite: Clean up URLs and make them more user-friendly. 
+- HeidiSQL - Database manager uesd to interact within the database
+- VC Redist - Used for ticketing system to run properly . ensures the system has the proper c++ libraries to work.
+- Rewrite - Clean up URLs and make them more user-friendly. 
 
 
 <h2>5. Installation Process</h2>
 
 <h3>Step 1: Set up virtual machine </h3>
 
-- Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop
+- Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop.
 
 <h3>Step 2: Enable IIS and CGI</h3>
 
@@ -50,7 +50,7 @@ Before getting started, download the necessary osTicket installation files from 
 
 <h3>Step 4: Download & Extract Files</h3>
 
-- Extract the php files from the downloaded files into the PHP folder on the C: drive
+- Extract the php files from the downloaded files into the PHP folder on the C: drive.
 
 - Navigate to C:\inetpub\wwwroot, then copy the upload folder from osTicket into this directory. Rename the folder to osTicket.
 
@@ -82,15 +82,15 @@ Before getting started, download the necessary osTicket installation files from 
 
 <h2>6. Completing the Installation</h2>
 
-- You are now ready to connect osTicket to your MySQL database:
+- You are now ready to connect osTicket to your MySQL database
 
 <h2>Complete Install</h2>
 
-You are now ready to connect osTicket to your MySQL database
+You are now ready to connect osTicket to your MySQL database.
 
 <h3>Step 1: Create a New Database</h3>
 
-- Open HeidiSQL and create a new database for osTicket
+- Open HeidiSQL and create a new database for osTicket.
 
 <h3>Step 2: Configure osTicket to Connect to the Database</h3>
 
