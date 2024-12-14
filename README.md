@@ -3,8 +3,10 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
+
 This tutorial covers how to install and set up the help desk system, osTicket.<br />
 
+- ### [OsTicket Install Tutorial](https://youtu.be/mzk9p2N_tAY)
 
 <h2>1. Download and Instalation Files</h2>
 Before getting started, download the necessary osTicket installation files from the link below:
