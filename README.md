@@ -8,7 +8,7 @@ This tutorial covers how to install and set up the help desk system, osTicket.<b
 
 - ### [OsTicket Install Tutorial](https://youtu.be/mzk9p2N_tAY)
 
-<h2>1. Download and Instalation Files</h2>
+<h2>1. Download and Installation Files</h2>
 Before getting started, download the necessary osTicket installation files from the link below:
 
 - ### [OsTicket Install Files](https://drive.google.com/drive/u/0/folders/1zBOeA_lLiIJAMPvdahCGLg9wJqVeznbu)
@@ -19,7 +19,7 @@ Before getting started, download the necessary osTicket installation files from 
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>3. Operating Systems Used </h2>
+<h2>3. Operating System Used </h2>
 
 - Windows 10</b> (21H2)
 
@@ -27,14 +27,16 @@ Before getting started, download the necessary osTicket installation files from 
 
 - PHP - Serves as the bridge between the database (MySQL) and osTicket, processing server-side scripts.
 - mySQL - Database used to store data, ticket details, customer information, notes, ect.
-- HeidiSQL: database manager uesd to interact within the database
+- HeidiSQL: Database manager uesd to interact within the database
 - VC Redist: Used for ticketing system to run properly . ensures the system has the proper c++ libraries to work.
 - Rewrite: Clean up URLs and make them more user-friendly. 
 
 
 <h2>5. Installation Process</h2>
+
 <h3>Step 1: Set up virtual machine </h3>
-Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop
+
+- Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop
 
 <h3>Step 2: Enable IIS and CGI</h3>
 
@@ -43,6 +45,7 @@ Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop
 - Ensure CGI is enabled.
 
 <h3>Step 3: Prepare PHP Folder</h3>
+
 - On the C: drive, create a new folder named PHP.
 
 <h3>Step 4: Download & Extract Files</h3>
@@ -83,7 +86,7 @@ Launch a Windows 10 VM on Microsoft Azure and access it via Remote Desktop
 
 <h2>Complete Install</h2>
 
-You are now ready to connect osTicket to your MySQL database:
+You are now ready to connect osTicket to your MySQL database
 
 <h3>Step 1: Create a New Database</h3>
 
