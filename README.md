@@ -84,10 +84,6 @@ Before getting started, download the necessary osTicket installation files from 
 
 - You are now ready to connect osTicket to your MySQL database
 
-<h2>Complete Install</h2>
-
-You are now ready to connect osTicket to your MySQL database.
-
 <h3>Step 1: Create a New Database</h3>
 
 - Open HeidiSQL and create a new database for osTicket.
