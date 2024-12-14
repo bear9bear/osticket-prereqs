@@ -27,7 +27,7 @@ Before getting started, download the necessary osTicket installation files from 
 
 - PHP - Serves as the bridge between the database (MySQL) and osTicket, processing server-side scripts.
 - mySQL - Database used to store data, ticket details, customer information, notes, ect.
-- HeidiSQL - Database manager uesd to interact within the database
+- HeidiSQL - Database manager uesd to interact within the database.
 - VC Redist - Used for ticketing system to run properly . ensures the system has the proper c++ libraries to work.
 - Rewrite - Clean up URLs and make them more user-friendly. 
 
